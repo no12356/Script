@@ -36,7 +36,7 @@ local entity = spawner.Create({
 		Type = "Ambush", -- "Blitz"
 		Min = 10,
 		Max = 10,
-		Delay = 0.5
+		Delay = 0
 	},
 	Damage = {
 		Enabled = true,
@@ -143,5 +143,6 @@ local sound = Instance.new("Sound")
 end)
 
 ---====== Run entity ======---
+
 
 entity:Run()
