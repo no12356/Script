@@ -34,7 +34,7 @@ local entity = spawner.Create({
 	Damage = {
 		Enabled = true,
 		Range = 150,
-		Amount = 0.01
+		Amount = 125
 	},
 	Crucifixion = {
 		Enabled = true,
@@ -77,11 +77,6 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 
 	if newHealth == 0 then
 		print("Entity has killed the player")
-		return
-	end
-
-	print("Entity has damaged the player")
-
 	-----------------------------------------------------
 	--                JUMPSCARE GUI
 	-----------------------------------------------------
@@ -208,8 +203,13 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 			JumpscareGui:Destroy()
 		end
 	end)
+		return
+	end
+
+	print("Entity has damaged the player")
 
 end)
 
 ---====== START ENTITY ======---
 entity:Run()
+
