@@ -143,7 +143,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 		face.AnchorPoint = Vector2.new(0.5, 0.5)
 		face.Position = UDim2.new(0.5, 0, 0.589, 0)
 		face.Size = UDim2.new(0, 100, 0, 100)
-		face.Image = "rbxassetid://109087041408558"
+		face.Image = "rbxassetid://11036572035"
 		face.BackgroundTransparency = 1
 
 		local text = Instance.new("ImageLabel", screenGui)
@@ -192,7 +192,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 		task.spawn(function()
 			while not stopEffects do
 				face.Rotation = 10
-				face.Image = "rbxassetid://109087041408558"
+				face.Image = "rbxassetid://11036572035"
 				task.wait(0.0589)
 				face.Rotation = -10
 				task.wait(0.0589)
