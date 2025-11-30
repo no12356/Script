@@ -27,7 +27,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 300,
+		Speed = 600,
 		Delay = 7,
 		Reversed = false
 	},
@@ -60,6 +60,12 @@ local entity = spawner.Create({
 
 entity:SetCallback("OnSpawned", function()
     print("Entity has spawned")
+game.Lighting.Ambient = Color3.fromRGB(76, 76, 76)
+		game:GetService("TweenService"):Create(
+			game.Lighting,
+			TweenInfo.new(7),
+			{Ambient = Color3.fromRGB(67, 51, 56))}
+		):Play()
 end)
 
 entity:SetCallback("OnStartMoving", function()
@@ -87,6 +93,12 @@ entity:SetCallback("OnRebounding", function(startOfRebound)
         print("Entity has started rebounding")
 	else
         print("Entity has finished rebounding")
+game.Lighting.Ambient = Color3.fromRGB(76,76,76)
+		game:GetService("TweenService"):Create(
+			game.Lighting,
+			TweenInfo.new(1.5),
+			{Ambient = Color3.fromRGB(67, 51, 56))}
+		):Play()
 	end
 end)
 
