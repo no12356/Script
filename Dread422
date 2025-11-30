@@ -36,7 +36,7 @@ local entity = spawner.Create({
 		Type = "Ambush", -- "Blitz"
 		Min = 7,
 		Max = 7,
-		Delay = 0.0001
+		Delay = 0
 	},
 	Damage = {
 		Enabled = true,
