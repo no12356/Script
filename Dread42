@@ -12,7 +12,7 @@ local entity = spawner.Create({
 	},
 	Lights = {
 		Flicker = {
-			Enabled = true,
+			Enabled = false,
 			Duration = 1
 		},
 		Shatter = true,
@@ -51,7 +51,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
+		Hints = {"you die to dread", "he is escape from me", "i need find the mand make him to a clock again", "bye"},
 		Cause = ""
 	}
 })
@@ -158,7 +158,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 		local face = Instance.new("ImageLabel", screenGui)
 		face.AnchorPoint = Vector2.new(0.5, 0.5)
 		face.Position = UDim2.new(0.5, 0, 0.589, 0)
-		face.Size = UDim2.new(0, 300, 0, 300)
+		face.Size = UDim2.new(0, 100, 0, 100)
 		face.Image = "rbxassetid://109087041408558"
 		face.BackgroundTransparency = 1
 
