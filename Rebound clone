@@ -315,7 +315,7 @@ end)
 entity:SetCallback("OnDamagePlayer", function(newHealth)
  if newHealth == 0 then
   print("Entity has killed the player")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Rebound%20jumpscare"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Only-NEdless/refs/heads/main/rebrithmajsd"))()
  else
   print("Entity has damaged the player")
  end
@@ -383,7 +383,7 @@ end)
 entity:SetCallback("OnDamagePlayer", function(newHealth)
  if newHealth == 0 then
   print("Entity has killed the player")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Rebound%20jumpscare"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Only-NEdless/refs/heads/main/rebrithmajsd"))()
  else
   print("Entity has damaged the player")
  end
