@@ -44,7 +44,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 150,
+		Speed = 200,
 		Delay = 5,
 		Reversed = false
 	},
@@ -77,6 +77,7 @@ local entity = spawner.Create({
 
 entity:SetCallback("OnSpawned", function()
     print("Entity has spawned")
+light(2,Color3.fromRGB(127, 249, 255),Color3.fromRGB(0, 174, 255))
 local cue2 = Instance.new("Sound")
     cue2.Parent = game.Workspace
     cue2.Name = "Spawn"
