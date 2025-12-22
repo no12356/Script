@@ -51,8 +51,8 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
-		Cause = ""
+		Hints = {"You died to Mystery Rush", "This rush is a different kind", "He's purple and rebounds for just 1 time", "So dont be tricked when getting out of the closet or bed"},
+		Cause = "Rush"
 	}
 })
 
@@ -132,5 +132,6 @@ game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPla
 end)
 
 ---====== Run entity ======---
+
 
 entity:Run()
