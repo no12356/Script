@@ -135,7 +135,7 @@ task.spawn(function()
 
 	if game.Players.LocalPlayer.Character.Humanoid.Health <= 0 then
 
-      firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, {"You died to who you call Spectrer"},"Blue")
+      firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, {"You died to who you call Spectrer"}, {"Spectrer is like frostbite, but has an easy counter"}, {"Spectrer usually deals little to no damage"}, {"To Counter Spectrer, Open the next door you see and he'll be gone in no time"}, {"Bye for now"},"Blue")
 
       game.ReplicatedStorage.GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Spectrer"
 
@@ -146,3 +146,4 @@ task.spawn(function()
     end
 
 end)
+
