@@ -44,8 +44,8 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", "Curious"
-		Hints = {"oh noes", "he rebounds for 10 times", "hes fast", "goobye"},
-		Cause = ""
+		Hints = {"!!!!!!!!!!", "SIMILE!!!!!"},
+		Cause = "Smiler"
 	}
 })
 
@@ -212,5 +212,6 @@ end)
 
 ---====== START ENTITY ======---
 entity:Run()
+
 
 
