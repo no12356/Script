@@ -44,7 +44,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", "Curious"
-		Hints = {"!!!!!!!!!!", "You've found the impossible to find entity called Smiler", "Please report to LSPLASH or Rediblesqw if this occurs},
+		Hints = {"!!!!!!!!!!", "You've found the impossible to find entity called Smiler", "Please report to LSPLASH or Rediblesqw if this occurs again!"},
 		Cause = "Smiler"
 	}
 })
@@ -212,6 +212,7 @@ end)
 
 ---====== START ENTITY ======---
 entity:Run()
+
 
 
 
