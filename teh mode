@@ -8,7 +8,7 @@ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("
 -- Depth
 coroutine.wrap(function()
     while true do
-        wait(90)
+        wait(70)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Detph1"))()
@@ -18,7 +18,7 @@ end)()
 -- Smiler
 coroutine.wrap(function()
     while true do
-        wait(200)
+        wait(math.random(450, 550))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Smiler"))()
@@ -28,7 +28,7 @@ end)()
 -- Threat
 coroutine.wrap(function()
     while true do
-        wait(150)
+        wait(math.random(350, 500))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/threat.txt"))()
@@ -38,7 +38,7 @@ end)()
 -- WH1T3
 coroutine.wrap(function()
     while true do
-        wait(90)
+        wait(math.random(180, 300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/wh1t3.txt"))()
@@ -48,7 +48,7 @@ end)()
 -- G95
 coroutine.wrap(function()
     while true do
-        wait(80)
+        wait(math.random(150, 405)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/G-95.txt"))()
@@ -58,7 +58,7 @@ end)()
 -- CommonSense
 coroutine.wrap(function()
     while true do
-        wait(150)
+        wait(0)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Common_Sense.txt"))()
@@ -68,7 +68,7 @@ end)()
 -- Daze
 coroutine.wrap(function()
     while true do
-        wait(70)
+        wait(35)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Daze.txt"))()
@@ -78,9 +78,9 @@ end)()
 -- Rebound
 coroutine.wrap(function()
     while true do
-        wait(150)            -- wait before entity spawning
+        wait(math.random(250, 300)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-         wait(0)            -- time when entity spawn after reach room
+         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Rebound%20clone"))()
 end
 end)()
@@ -88,7 +88,7 @@ end)()
 -- Disturdaze
 coroutine.wrap(function()
     while true do
-        wait(150)
+        wait(math.random(150, 550
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Disturdaze.txt"))()
@@ -108,9 +108,9 @@ end)()
 -- MysteryRush
 coroutine.wrap(function()
     while true do
-        wait(120)            -- wait before entity spawning
+        wait(random.math(90, 180)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-         wait(0)            -- time when entity spawn after reach room
+         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Rush.txt"))()
 end
 end)()
@@ -118,9 +118,9 @@ end)()
 -- Ambush
 coroutine.wrap(function()
     while true do
-        wait(180)            -- wait before entity spawning
+        wait(math.random(200,
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-         wait(0)            -- time when entity spawn after reach room
+         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Ambush.txt"))()
 end
 end)()
