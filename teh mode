@@ -10,7 +10,7 @@ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("
 -- Depth
 coroutine.wrap(function()
     while true do
-        wait(math.random(50, 60))
+        wait(math.random(50, 120))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Detph1"))()
@@ -20,7 +20,7 @@ end)()
 -- Smiler
 coroutine.wrap(function()
     while true do
-        wait(math.random(450, 550))
+        wait(math.random(180, 250))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Smiler"))()
@@ -30,7 +30,7 @@ end)()
 -- Threat
 coroutine.wrap(function()
     while true do
-        wait(math.random(350, 500))
+        wait(math.random(260, 275))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/threat.txt"))()
@@ -40,7 +40,7 @@ end)()
 -- WH1T3
 coroutine.wrap(function()
     while true do
-        wait(math.random(180, 300))
+        wait(math.random(180, 280))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/wh1t3.txt"))()
@@ -50,7 +50,7 @@ end)()
 -- G95
 coroutine.wrap(function()
     while true do
-        wait(math.random(150, 405))
+        wait(math.random(150, 185))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/G-95.txt"))()
@@ -70,7 +70,7 @@ end)()
 -- Daze
 coroutine.wrap(function()
     while true do
-        wait(math.random(20, 35))
+        wait(35)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Daze.txt"))()
@@ -100,7 +100,7 @@ end)()
 -- Fluster
 coroutine.wrap(function()
     while true do
-        wait(math.random(80, 520))
+        wait(math.random(80, 100))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Fluster.txt"))()
@@ -110,7 +110,7 @@ end)()
 -- MysteryRush
 coroutine.wrap(function()
     while true do
-        wait(random.math(90, 180))
+        wait(random.math(120, 180))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Rush.txt"))()
@@ -120,7 +120,7 @@ end)()
 -- Ambush
 coroutine.wrap(function()
     while true do
-        wait(math.random(150, 350))
+        wait(math.random(180, 205))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Ambush.txt"))()
