@@ -9,7 +9,7 @@ wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).c
 coroutine.wrap(function()
 	while true do
 		game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-		if math.random(1,5) == 1 then
+		if math.random(1,2) == 1 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Detph1"))()
 	end
 end
