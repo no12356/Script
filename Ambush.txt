@@ -42,7 +42,7 @@ local entity = spawner.Create({
 	Damage = {
 		Enabled = true,
 		Range = 60,
-		Amount = 0.01
+		Amount = 125
 	},
 	Crucifixion = {
 		Enabled = true,
@@ -52,7 +52,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
+		Hints = {"script is in wip", "wip", "r u a dumbass", "bye"},
 		Cause = ""
 	}
 })
@@ -124,3 +124,4 @@ end)
 ---====== Run entity ======---
 
 entity:Run()
+
