@@ -1,0 +1,126 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("eoyoustme's Impossible mode",true)
+wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Made by me and Anctarus, all creds go to @eoyoustme for his entities",true)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Thanks to Anctarus7105 for the entity template! I combined all the entities",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("im so ass at scripting bro",true)
+
+
+-- Depth
+coroutine.wrap(function()
+    while true do
+        wait(90)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(80)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/depth.txt"))()
+end
+end)()
+
+-- Smiler
+coroutine.wrap(function()
+    while true do
+        wait(200)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(325)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Smiler"))()
+end
+end)()
+
+-- Threat
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(250)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/threat.txt"))()
+end
+end)()
+
+-- WH1T3
+coroutine.wrap(function()
+    while true do
+        wait(90)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(345)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/wh1t3.txt"))()
+end
+end)()
+
+-- G95
+coroutine.wrap(function()
+    while true do
+        wait(80)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(250)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/G-95.txt"))()
+end
+end)()
+
+-- CommonSense
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Common_Sense.txt"))()
+end
+end)()
+
+-- Daze
+coroutine.wrap(function()
+    while true do
+        wait(70)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(60)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Daze.txt"))()
+end
+end)()
+
+-- Rebound
+coroutine.wrap(function()
+    while true do
+        wait(150)            -- wait before entity spawning
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(0)            -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Rebound%20clone"))()
+end
+end)()
+
+-- Disturdaze
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(180)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Disturdaze.txt"))()
+end
+end)()
+
+-- Fluster
+coroutine.wrap(function()
+    while true do
+        wait(150)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Fluster.txt"))()
+end
+end)()
+
+-- MysteryRush
+coroutine.wrap(function()
+    while true do
+        wait(150)            -- wait before entity spawning
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(180)            -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Rush.txt"))()
+end
+end)()
+
+-- Ambush
+coroutine.wrap(function()
+    while true do
+        wait(180)            -- wait before entity spawning
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+         wait(225)            -- time when entity spawn after reach room
+loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Ambush.txt"))()
+end
+end)()
