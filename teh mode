@@ -1,14 +1,14 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("'s Impossible mode",true)
-wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Made by me and Anctarus, all creds go to @eoyoustme for his entities",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("no12356's Impossible mode",true)
+wait(4) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Made by me, all creds go to @eoyoustme for his entities",true)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Thanks to Anctarus7105 for the entity template! I combined all the entities",true)
+wait(5) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Thanks to Anctarus7105 for the entity template! I combined all the entities",true)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("im so ass at scripting bro",true)
 
 
 -- Depth
 coroutine.wrap(function()
     while true do
-        wait(70)
+        wait(math.random(50, 125)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
          wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/no12356/Script/refs/heads/main/Detph1"))()
