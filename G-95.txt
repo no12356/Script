@@ -237,11 +237,11 @@ local entity = spawner.Create({
 
 
 
-		Hints = {"Death", "Hints", "Go", "Here"},
+		Hints = {"You died to G-95", "He rebounds for 3-6 times", "He turns any room purple when he arrives", "Hide when you hear a thunder, or when a room turns pink!"},
 
 
 
-		Cause = ""
+		Cause = "G-95"
 
 
 
@@ -754,3 +754,4 @@ end)
 
 
 entity:Run()
+
